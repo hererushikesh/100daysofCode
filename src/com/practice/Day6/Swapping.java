@@ -7,8 +7,8 @@ public class Swapping {
 		int b = 40;
 		int temp;
 
-		System.out.println("Before Swapping the variable a is: " + a);
-		System.out.println("Before Swapping the variable b is: " + b);
+		System.out.println("Before Swapping the variable a is : " + a);
+		System.out.println("Before Swapping the variable b is : " + b);
 
 		temp = a;
 		a = b;
