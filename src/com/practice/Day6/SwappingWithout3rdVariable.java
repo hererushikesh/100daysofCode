@@ -5,8 +5,8 @@ public class SwappingWithout3rdVariable {
 
 		int a = 20;
 		int b = 40;
-		System.out.println("Before swapping variable a is : " + a);
-		System.out.println("Before swapping varible  b is : " + b);
+		System.out.println("Before swapping variable a is :" + a);
+		System.out.println("Before swapping varible  b is :" + b);
 
 		a = a + b;
 		b = a - b;
@@ -14,8 +14,8 @@ public class SwappingWithout3rdVariable {
 
 		System.out.println("\n");
 
-		System.out.println("After Swapping variable a is : " + a);
-		System.out.println("After Swapping variable b is : " + b);
+		System.out.println("After Swapping variable a is :" + a);
+		System.out.println("After Swapping variable b is :" + b);
 	}
 
 }
