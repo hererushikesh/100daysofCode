@@ -14,7 +14,6 @@ public class LargerNumberOfFactorial {
 		Scanner sc = new Scanner(System.in);
 
 		number = sc.nextInt();
-
 		for(int i=1;number>=i;i++)
 		{
 			fact=fact.multiply(inc);
@@ -22,5 +21,4 @@ public class LargerNumberOfFactorial {
 		}
 		System.out.println(fact);
 	}
-
 }
