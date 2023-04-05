@@ -4,12 +4,13 @@ public class ReverseString {
 
 	public static void main(String[] args) {
 
-		String name = "Reverse";
+		String name = "Hello-World";
 		String reverse = "";
-		
+
 		int length = name.length();
-		for (int i = length - 1; i >= 0; i--) {
-			reverse = reverse + name.charAt(i);
+		for (int i = 0; i < length; i++) {
+			char ch = name.charAt(i);
+			reverse = ch + reverse;
 		}
 		System.out.println(reverse);
 	}
